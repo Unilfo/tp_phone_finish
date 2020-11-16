@@ -1,0 +1,35 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "saadmin",
+    "database": "Phone",
+    "host": "localhost",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "multipleStatements": true
+    },
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "sa",
+    "password": "saadmin",
+    "database": "Phone",
+    "host": "localhost",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "multipleStatements": true
+    },
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "sa",
+    "password": "saadmin",
+    "database": "Phone",
+    "host": "localhost",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "multipleStatements": true
+    },
+    "operatorsAliases": false
+  }
+}
