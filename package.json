@@ -25,5 +25,5 @@
     "nodemon": "^1.11.0",
     "sequelize-cli": "^5.5.1"
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "http://191.168.2.41:5000"
 }

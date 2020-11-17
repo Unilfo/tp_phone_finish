@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "sa",
-    "password": "saadmin",
+    "username": "sqladmin",
+    "password": "09876",
     "database": "Phone",
-    "host": "localhost",
+    "host": "191.168.0.8",
     "dialect": "mssql",
     "dialectOptions": {
       "multipleStatements": true
@@ -11,10 +11,10 @@
     "operatorsAliases": false
   },
   "test": {
-    "username": "sa",
-    "password": "saadmin",
+    "username": "sqladmin",
+    "password": "09876",
     "database": "Phone",
-    "host": "localhost",
+    "host": "191.168.0.8",
     "dialect": "mssql",
     "dialectOptions": {
       "multipleStatements": true
@@ -22,10 +22,10 @@
     "operatorsAliases": false
   },
   "production": {
-    "username": "sa",
-    "password": "saadmin",
+    "username": "sqladmin",
+    "password": "09876",
     "database": "Phone",
-    "host": "localhost",
+    "host": "191.168.0.8",
     "dialect": "mssql",
     "dialectOptions": {
       "multipleStatements": true

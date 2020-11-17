@@ -53,7 +53,6 @@ export default class ModalRowAdd extends React.Component {
         note: this.state.note.trim(),
         img: this.state.img,
       };
-
       this.props.onAdd(newItem);
     }else if(this.state.fio === '' || this.state.phone === '' || this.state.departmentId === ''){
       alert('Не заоплненно ФИО или телефон или подразделение!')

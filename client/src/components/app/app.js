@@ -99,6 +99,7 @@ export default class DataTeblePhoneNumber extends Component {
       fetchToDbPost(path, 'POST', item)
         .then((response) => response.json())
         .then((result) => {
+          console.log(result)
           this.fetchEmployeeAll()
         })
         .catch((error) => {
@@ -413,6 +414,7 @@ export default class DataTeblePhoneNumber extends Component {
           paginationPerPage={15}
           noHeader
           highlightOnHover
+          noDataComponent='К сожалению данные не найдены'
           onRowClicked={(row) => {
             this.setState({
               show: true,

@@ -1,5 +1,5 @@
 async function fetchToDbGet(path) {
-  let response = await fetch(`http://192.168.3.134:5000/${path}`, {
+  let response = await fetch(`http://191.168.2.41:5000/${path}`, {
     method: "GET",
     mode: "cors",
     headers: {
@@ -13,7 +13,7 @@ async function fetchToDbGet(path) {
 }
 
 async function fetchToDbPost(path, method, body = '') {
-  let response = await fetch(`http://192.168.3.134:5000/${path}`, {
+  let response = await fetch(`http://191.168.2.41:5000/${path}`, {
     method: method,
     mode: 'cors',
     body: JSON.stringify(body),
@@ -27,8 +27,9 @@ async function fetchToDbPost(path, method, body = '') {
   return response
 }
 
+
 async function fetchToDbDelete(path, method){
-  let response = await fetch(`http://192.168.3.134:5000/${path}`, {
+  let response = await fetch(`http://191.168.2.41:5000/${path}`, {
     method: method,
     mode: 'cors',
     headers: {
